@@ -680,26 +680,28 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
       <div class="float-tag ft1"><span class="ft-dot"></span><span id="fp1">Otomasyon aktif</span></div>
       <div class="wf-card">
         <div class="wf-header">
-          <div class="wf-ico">🤖</div>
+          <div class="wf-ico">⚡</div>
           <div>
-            <div class="wf-name" id="wf-nm">WhatsApp Rezervasyon Botu</div>
+            <div class="wf-name" id="wf-nm">Smart Bodrum — Aktif Hizmetler</div>
             <div class="wf-site">smartbodrum.tech</div>
           </div>
-          <div class="wf-status" id="wf-st">Çalışıyor</div>
+          <div class="wf-status" id="wf-st">Sistemler Çalışıyor</div>
         </div>
-        <div class="wf-steps">
-          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt" id="ws1">Müşteri mesajı alındı</span><span class="ws-badge bg-g" id="ws1b">Tamamlandı</span></div>
-          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt" id="ws2">AI analiz etti</span><span class="ws-badge bg-g" id="ws2b">Tamamlandı</span></div>
-          <div class="ws active"><span class="ws-dot dot-a"></span><span class="ws-txt" id="ws3">Rezervasyon oluşturuluyor</span><span class="ws-badge bg-a" id="ws3b">Canlı</span></div>
-          <div class="ws"><span class="ws-dot dot-w"></span><span class="ws-txt" id="ws4">Onay mesajı gönderilecek</span><span class="ws-badge bg-w" id="ws4b">Bekliyor</span></div>
+        <div class="wf-steps" style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt">WhatsApp Otomasyon</span><span class="ws-badge bg-g">Canlı</span></div>
+          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt">Emlak CRM</span><span class="ws-badge bg-g">Canlı</span></div>
+          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt">Finansal Analiz</span><span class="ws-badge bg-g">Canlı</span></div>
+          <div class="ws active"><span class="ws-dot dot-a"></span><span class="ws-txt">HR Otomasyonu</span><span class="ws-badge bg-a">Aktif</span></div>
+          <div class="ws active"><span class="ws-dot dot-g"></span><span class="ws-txt">Web Sitesi</span><span class="ws-badge bg-g">Canlı</span></div>
+          <div class="ws active"><span class="ws-dot dot-a"></span><span class="ws-txt">E-mail Marketing</span><span class="ws-badge bg-a">Aktif</span></div>
         </div>
         <div class="wf-stats">
-          <div class="ws-stat"><div class="ws-stat-n">47</div><div class="ws-stat-l" id="wst1">Bugün</div></div>
-          <div class="ws-stat"><div class="ws-stat-n">98%</div><div class="ws-stat-l" id="wst2">Yanıt oranı</div></div>
-          <div class="ws-stat"><div class="ws-stat-n">3s</div><div class="ws-stat-l" id="wst3">Ort. yanıt</div></div>
+          <div class="ws-stat"><div class="ws-stat-n">+%80</div><div class="ws-stat-l" id="wst1">Müşteri Artışı</div></div>
+          <div class="ws-stat"><div class="ws-stat-n">7/24</div><div class="ws-stat-l" id="wst2">Kesintisiz</div></div>
+          <div class="ws-stat"><div class="ws-stat-n">3×</div><div class="ws-stat-l" id="wst3">Daha Fazla Lead</div></div>
         </div>
       </div>
-      <div class="float-tag ft2"><span class="ft-dot"></span><span id="fp2">+47 rezervasyon bugün</span></div>
+      <div class="float-tag ft2"><span class="ft-dot"></span><span id="fp2">Tüm sistemler çalışıyor</span></div>
     </div>
   </div>
 </section>
@@ -707,13 +709,15 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
 <!-- TRUST -->
 <div id="trust">
   <div class="container">
-    <div class="trust-lbl" id="trust-lbl">Bodrum'daki işletmelere özel çözümler</div>
+    <div class="trust-lbl" id="trust-lbl">İşletmelere özel çözümler</div>
+    <div class="trust-row" style="margin-bottom:10px">
+      <div class="trust-pill" style="background:rgba(0,80,203,0.07);border-color:rgba(0,80,203,0.22);color:var(--green);font-weight:600">🏢 <span id="trust-sub">Küçük ve Orta Boy İşletmeler</span></div>
+    </div>
     <div class="trust-row">
       <div class="trust-pill">🍽️ <span id="tp1">Restoranlar</span></div>
-      <div class="trust-pill">🏨 <span id="tp2">Oteller & Butikler</span></div>
+      <div class="trust-pill">🏨 <span id="tp2">Oteller & Butik Oteller</span></div>
       <div class="trust-pill">🏠 <span id="tp3">Gayrimenkul</span></div>
       <div class="trust-pill">⛵ <span id="tp4">Turizm & Tekne</span></div>
-      <div class="trust-pill">🚗 <span id="tp5">Transfer Servisleri</span></div>
     </div>
   </div>
 </div>
@@ -730,38 +734,53 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
       <div class="srv-card wide reveal" onclick="openModal('m1')" style="cursor:pointer">
         <div class="srv-ico">🤖</div>
         <div class="srv-name" id="s1n">Yapay Zeka Otomasyon Sistemi</div>
-        <div class="srv-desc" id="s1d">İşletmenizin tüm dijital süreçlerini analiz ederek size özel bir yapay zeka motoru kuruyoruz. Müşteri iletişiminden iç operasyonlara kadar her şey otomatik, kesintisiz çalışır.</div>
+        <div class="srv-desc" id="s1d">İşletmenizin tüm dijital süreçlerini analiz ederek size özel bir yapay zeka motoru kuruyoruz. n8n tabanlı akıllı sistemler; müşteri iletişiminden iç operasyonlara kadar 7/24 kesintisiz çalışır.</div>
         <span class="srv-tag" id="s1t">En Çok Tercih Edilen</span>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
       <div class="srv-card reveal" onclick="openModal('m2')" style="cursor:pointer">
         <div class="srv-ico">📱</div>
-        <div class="srv-name">WhatsApp Otomasyon</div>
-        <div class="srv-desc" id="s2d">Gelen mesajlara anında akıllı yanıtlar. Rezervasyon alma, bilgi verme, yönlendirme — hepsi otomatik.</div>
+        <div class="srv-name">WhatsApp & Chatbot Otomasyonu</div>
+        <div class="srv-desc" id="s2d">Gelen mesajlara anında akıllı yanıtlar. Rezervasyon alma, bilgi verme, yönlendirme — restoranlar, oteller ve turizm işletmeleri için hepsi otomatik.</div>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
       <div class="srv-card reveal" onclick="openModal('m3')" style="cursor:pointer">
-        <div class="srv-ico">📅</div>
-        <div class="srv-name" id="s3n">Rezervasyon Otomasyonu</div>
-        <div class="srv-desc" id="s3d">Restoran masası veya otel odası. Rezervasyon akışını tamamen otomatikleştirin, onaylar otomatik gitsin.</div>
+        <div class="srv-ico">🏠</div>
+        <div class="srv-name" id="s3n">Emlak CRM & AI Otomasyon</div>
+        <div class="srv-desc" id="s3d">Portal leadlerini otomatik topla, AI ile skorla ve randevuya çevir. Satış pipeline'ını uçtan uca otomatik yönet. Bodrum emlak sektörü için özel geliştirildi.</div>
+        <span class="srv-tag" style="background:rgba(34,197,94,0.08);border-color:rgba(34,197,94,0.2);color:#16a34a" id="s3t">Yeni</span>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
       <div class="srv-card reveal" onclick="openModal('m4')" style="cursor:pointer">
-        <div class="srv-ico">🎯</div>
-        <div class="srv-name" id="s4n">Lead Toplama Otomasyonu</div>
-        <div class="srv-desc" id="s4d">Potansiyel müşteri sinyallerini anlık yakalayın, otomatik takibe alın, satışa dönüştürün.</div>
+        <div class="srv-ico">📊</div>
+        <div class="srv-name" id="s4n">Finansal Analiz Otomasyonu</div>
+        <div class="srv-desc" id="s4d">Mizan verinizi yükle, AI CFO'n analiz etsin. Bütçe vs gerçekleşen varyans analizi, nakit projeksiyonu, anomali tespiti ve otomatik yönetim raporları.</div>
+        <span class="srv-tag" style="background:rgba(34,197,94,0.08);border-color:rgba(34,197,94,0.2);color:#16a34a" id="s4t">Yeni</span>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
       <div class="srv-card reveal" onclick="openModal('m5')" style="cursor:pointer">
-        <div class="srv-ico">⚙️</div>
-        <div class="srv-name" id="s5n">CRM & İş Akışı Otomasyonu</div>
-        <div class="srv-desc" id="s5d">Mevcut CRM'inizi veya yeni iş akışlarını otomatikleştirin. Hiçbir müşteri takipsiz kalmasın.</div>
+        <div class="srv-ico">👥</div>
+        <div class="srv-name" id="s5n">HR Otomasyonu</div>
+        <div class="srv-desc" id="s5d">İşe alımdan performans değerlendirmesine kadar tüm İK süreçleri otomatik. CV AI skorlaması, onboarding yönetimi ve 360° feedback — tek platformda.</div>
+        <span class="srv-tag" style="background:rgba(34,197,94,0.08);border-color:rgba(34,197,94,0.2);color:#16a34a" id="s5t">Yeni</span>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
       <div class="srv-card reveal" onclick="openModal('m6')" style="cursor:pointer">
-        <div class="srv-ico">🔔</div>
-        <div class="srv-name" id="s6n">Müşteri Takip Otomasyonu</div>
-        <div class="srv-desc" id="s6d">Ziyaret sonrası teşekkürler, sadakat kampanyaları, hatırlatıcılar — zamanında ve kişiselleştirilmiş.</div>
+        <div class="srv-ico">🌐</div>
+        <div class="srv-name" id="s6n">Mobil Uyumlu Web Sitesi</div>
+        <div class="srv-desc" id="s6d">Kuaförden restorana, emlak ofisinden butik otele — markanıza özel, hızlı ve mobil dostu modern web siteleri. SEO uyumlu, hazır içerik ile teslim.</div>
+        <span class="srv-detail-hint">Detayları Gör →</span>
+      </div>
+      <div class="srv-card reveal" onclick="openModal('m7')" style="cursor:pointer">
+        <div class="srv-ico">✉️</div>
+        <div class="srv-name" id="s7n">E-mail Marketing Otomasyonu</div>
+        <div class="srv-desc" id="s7d">Müşteri listenizi segmentlere ayırın, kişiselleştirilmiş e-mail kampanyaları otomatik gönderin. Açılma ve tıklama oranlarını AI ile optimize edin.</div>
+        <span class="srv-detail-hint">Detayları Gör →</span>
+      </div>
+      <div class="srv-card reveal" onclick="openModal('m8')" style="cursor:pointer">
+        <div class="srv-ico">🎯</div>
+        <div class="srv-name" id="s8n">Lead & Rezervasyon Otomasyonu</div>
+        <div class="srv-desc" id="s8d">Her kanaldan gelen potansiyel müşteriyi anında yakala, otomatik takibe al. Restoran, otel ve tur rezervasyonlarını sıfır hatayla yönet.</div>
         <span class="srv-detail-hint">Detayları Gör →</span>
       </div>
     </div>
@@ -810,9 +829,10 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
     <div class="sec-head center reveal">
       <div class="chip"><span class="cdot"></span><span id="ind-chip">Sektörler</span></div>
       <h2 class="sec-title" id="ind-title">Hangi Sektöre <span class="gt">Çözüm Üretiyoruz?</span></h2>
-      <p class="sec-sub" id="ind-sub">Bodrum'un önde gelen sektörlerine özel otomasyon çözümleri geliştiriyoruz.</p>
+      <p class="sec-sub" id="ind-sub">Sektörden bağımsız her ölçekteki işletme için otomasyon çözümleri geliştiriyoruz.</p>
     </div>
     <div class="ind-grid">
+      <div class="ind-card reveal" style="grid-column:span 2;background:linear-gradient(135deg,rgba(0,80,203,0.05) 0%,rgba(0,80,203,0.02) 100%);border-color:rgba(0,80,203,0.2)"><div><div class="ind-ico">🏢</div><div class="ind-nm" id="in0n">Küçük ve Orta Boy İşletmeler</div><div class="ind-dc" id="in0d">Sektörden bağımsız, 1 kişilik yerel işletmeden 500 çalışanlı şirkete kadar her ölçek için yapay zeka destekli otomasyon. Tekrarlayan iş yükünü sıfıra indirin, büyümeye odaklanın.</div></div><div class="ind-tags"><span class="ind-tag">Tüm Sektörler</span><span class="ind-tag">Ölçeklenebilir</span><span class="ind-tag">2 Haftada Kurulum</span><span class="ind-tag">KOBİ'ye Uygun Fiyat</span></div></div>
       <div class="ind-card reveal"><div><div class="ind-ico">🍽️</div><div class="ind-nm" id="in1n">Restoranlar</div><div class="ind-dc" id="in1d">Masa rezervasyonu, menü sorgulama, özel gün hatırlatıcısı ve müşteri sadakat sistemi tamamen otomatik.</div></div><div class="ind-tags"><span class="ind-tag" id="in1t1">Masa Rezervasyon</span><span class="ind-tag" id="in1t2">Menü Botu</span><span class="ind-tag" id="in1t3">Sadakat</span></div></div>
       <div class="ind-card reveal"><div><div class="ind-ico">🏨</div><div class="ind-nm" id="in2n">Oteller & Butik Oteller</div><div class="ind-dc" id="in2d">Online rezervasyon entegrasyonu, check-in hatırlatmaları, oda hizmetleri talebi ve konuk takip sistemi.</div></div><div class="ind-tags"><span class="ind-tag" id="in2t1">Online Rezervasyon</span><span class="ind-tag" id="in2t2">Check-in Bot</span><span class="ind-tag" id="in2t3">Konuk CRM</span></div></div>
       <div class="ind-card reveal"><div><div class="ind-ico">🏠</div><div class="ind-nm" id="in3n">Gayrimenkul</div><div class="ind-dc" id="in3d">Portal leadlerinin otomatik toplanması, müşteri takibi, görüntüleme randevusu ve satış süreci otomasyonu.</div></div><div class="ind-tags"><span class="ind-tag" id="in3t1">Lead Akışı</span><span class="ind-tag" id="in3t2">Randevu Botu</span><span class="ind-tag" id="in3t3">Satış CRM</span></div></div>
@@ -914,8 +934,11 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
             <option id="fo-0">Seçiniz</option>
             <option id="fo-1">Restoran</option>
             <option id="fo-2">Otel / Butik Otel</option>
-            <option id="fo-3">Gayrimenkul</option>
+            <option id="fo-3">Gayrimenkul / Emlak</option>
             <option id="fo-4">Turizm / Tekne Kiralama</option>
+            <option id="fo-6">Finans & Muhasebe</option>
+            <option id="fo-7">İnsan Kaynakları</option>
+            <option id="fo-8">Kuaför & Güzellik</option>
             <option id="fo-5">Diğer</option>
           </select>
         </div>
@@ -1008,11 +1031,13 @@ footer { background: var(--bg2); border-top: 1px solid rgba(0,80,203,0.08); padd
     <div class="ft-col">
       <h4 id="ft-h1">Hizmetler</h4>
       <ul>
-        <li><a href="#services" id="ft-s1">AI Otomasyon</a></li>
-        <li><a href="#services">WhatsApp Otomasyon</a></li>
-        <li><a href="#services" id="ft-s3">Rezervasyon Botu</a></li>
-        <li><a href="#services" id="ft-s4">Lead Otomasyonu</a></li>
-        <li><a href="#services">CRM Otomasyon</a></li>
+        <li><a href="#services" id="ft-s1">AI Otomasyon Sistemi</a></li>
+        <li><a href="#services">WhatsApp & Chatbot</a></li>
+        <li><a href="#services" id="ft-s3">Emlak CRM & AI</a></li>
+        <li><a href="#services" id="ft-s4">Finans & FP&A</a></li>
+        <li><a href="#services">İK Otomasyonu</a></li>
+        <li><a href="#services">Mobil Web Sitesi</a></li>
+        <li><a href="#services">E-mail Marketing</a></li>
       </ul>
     </div>
     <div class="ft-col">
@@ -1105,44 +1130,64 @@ const MODALS = {
     tags:['WhatsApp Business API','3 Sn Yanıt','Çoklu Dil','7/24 Aktif','Arşivleme']
   },
   m3: {
-    ico:'📅', title:'Rezervasyon Otomasyonu', tag:'No-Show\'u Azaltır',
-    lead:'Restoran masasından otel odasına, tekne kiralama talebinden spa randevusuna — tüm rezervasyon sürecini sıfır elle yönetin.',
+    ico:'🏠', title:'Emlak CRM & AI Otomasyon', tag:'Yeni Hizmet',
+    lead:'Sahibinden.com, Emlakjet ve diğer portallardaki leadlerinizi otomatik toplayın. AI ile skorlayın, randevuya çevirin. Satış pipeline\'ınız uçtan uca otomatik çalışır.',
     sections:[
-      {h:'Rezervasyon Akışı', items:['Müşteri WhatsApp veya web formu üzerinden talep gönderir','Sistem müsaitliği otomatik kontrol eder','Anlık onay mesajı müşteriye iletilir','Rezervasyon takvim ve sisteminize işlenir','Ziyaret 24 saat öncesinde otomatik hatırlatma gönderilir','İptal veya değişiklik talepleri de otomatik işlenir']},
-      {h:'Avantajlar', items:['%40\'a kadar daha az no-show (hatırlatma sayesinde)','Telefon meşgul sorunu ortadan kalkar','Gece gelen rezervasyonlar da kaybolmaz','Ekibiniz sadece gerçek ziyaretçilere odaklanır','Tüm rezervasyonlar tek panelden görülür']},
-      {h:'Entegre Olduğu Sistemler', items:['Google Calendar','Restoran rezervasyon platformları','Otel PMS sistemleri','Özel yazılımlarınız (API ile)']}
+      {h:'Neler Dahil?', items:['Emlak portallarından (sahibinden, emlakjet, hepsiemlak) lead otomatik çekme','AI ile lead kalite skoru ve önceliklendirme','Gelen leade 5 dakika içinde kişiselleştirilmiş yanıt','Otomatik randevu / görüntüleme daveti','Satış pipeline yönetimi: lead → görüntüleme → teklif → kapanış','Günlük performans raporu yöneticiye otomatik iletilir']},
+      {h:'Teknik Altyapı', items:['n8n tabanlı otomasyon akışları','Google Sheets veya Airtable CRM entegrasyonu','WhatsApp Business API ile mesajlaşma','Google Calendar ile randevu senkronizasyonu','Claude AI ile doğal dil lead analizi']},
+      {h:'İdeal Kullanım', items:['Bodrum\'daki emlak ofisleri ve komisyoncular','Müstakil çalışan gayrimenkul danışmanları','Hem satılık hem kiralık portföy yönetimi','Yabancı alıcılara yönelik İngilizce iletişim akışı']}
     ],
-    tags:['Otomatik Onay','Hatırlatma SMS/WA','Takvim Sync','No-Show Azaltma','İptal Yönetimi']
+    tags:['Portal Entegrasyonu','AI Lead Skoru','Randevu Botu','WhatsApp','Pipeline Yönetimi','Raporlama']
   },
   m4: {
-    ico:'🎯', title:'Lead Toplama Otomasyonu', tag:'Dönüşümü Artırır',
-    lead:'Portaldaki ilanınıza bakan, web formunuzu dolduran, sosyal medyadan mesaj atan her potansiyel müşteri — anında sisteme düşer ve takibe alınır.',
+    ico:'📊', title:'Finansal Analiz Otomasyonu', tag:'AI CFO Paketi',
+    lead:'Mizan veya banka verilerinizi yükleyin — AI CFO\'nuz analiz etsin. Bütçe vs gerçekleşen varyans, nakit projeksiyonu, anomali tespiti ve otomatik yönetim raporları.',
     sections:[
-      {h:'Lead Kaynakları', items:['Web sitesi iletişim formu','WhatsApp / Instagram mesajları','Emlak portalları (sahibinden, emlakjet vb.)','Google Ads landing page formları','Facebook / Instagram Lead Ads','Referans kodu ile gelen müşteriler']},
-      {h:'Otomatik Takip Akışı', items:['Lead sisteme düştüğü anda CRM\'e kaydedilir','İlk 5 dakika içinde kişiselleştirilmiş karşılama mesajı gider','24 saat sonra takip mesajı otomatik gönderilir','Yanıt vermeyenlere 3. günde hatırlatma iletilir','Tüm iletişim geçmişi tek panelde görülür','Satışa dönüşen leadler otomatik olarak arşivlenir']},
-      {h:'Neden Önemli?', items:['Hızlı yanıt = yüksek dönüşüm: İlk 5 dakika kritik','Hiçbir lead takipsiz kalmaz, elle kontrol gerekmez','Sezon yoğunluğunda da sistem aynı hızda çalışır','Raporlarla hangi kanalın en iyi lead getirdiğini görürsünüz']}
+      {h:'Hizmet Kapsamı', items:['Veri toplama modülü: muhasebe + banka verisi otomatik çekme','Bütçe vs gerçekleşen varyans analizi ve raporlama','Rolling forecast: güncellenen nakit projeksiyonu','Aylık yönetim raporu (board pack) otomasyonu','Anomali tespiti: anormal gider/gelir değişimlerinde anlık uyarı','Günlük dashboard: her sabah finansal özet görüntüsü']},
+      {h:'Kim İçin?', items:['CFO\'su olmayan veya yetersiz KOBİ\'ler (10-200 çalışan)','Muhasebecisinden daha fazlasını isteyen işletme sahipleri','Her ay manuel rapor hazırlayan CFO ve Finans Müdürleri','Türkiye pazarına özel: Logo, Mikro, Paraşüt, e-fatura uyumlu']},
+      {h:'Neden Bizim Çözümümüz?', items:['Samet\'in Finansal Kontrolörlük deneyimi + AI teknolojisi','Sadece otomasyon değil, raporları yorumlayabiliyoruz','Türkiye muhasebe standartlarına ve e-fatura sistemine uyumlu','Zeni.ai\'ın Türkiye versiyonu — yerel eksikliği kapatıyoruz']}
     ],
-    tags:['CRM Entegrasyonu','5 Dak İlk Yanıt','Çok Kanallı','Raporlama','Satış Hunisi']
+    tags:['FP&A','Nakit Projeksiyonu','Varyans Analizi','Anomali Tespiti','Board Pack','Dashboard']
   },
   m5: {
-    ico:'⚙️', title:'CRM & İş Akışı Otomasyonu', tag:'Operasyonu Hızlandırır',
-    lead:'Mevcut CRM\'inizi ya da sıfırdan kuracağınız iş akışlarını otomatikleştiriyoruz. Ekip içi bildirimlerden görev atamalarına kadar her şey otomatik.',
+    ico:'👥', title:'HR Otomasyonu', tag:'AI Destekli İK Platformu',
+    lead:'İşe alımdan performans değerlendirmesine kadar tüm İK süreçlerinizi otomatikleştirin. CV AI skorlaması, onboarding yönetimi ve 360° feedback — tek platformda.',
     sections:[
-      {h:'İş Akışı Örnekleri', items:['Yeni rezervasyon gelince mutfak/oda ekibine bildirim','Ödeme alındığında muhasebe sistemine otomatik kayıt','Müşteri şikayeti gelince yöneticiye anlık uyarı','Stok azaldığında tedarikçiye otomatik sipariş bildirimi','Ekip üyelerine günlük görev özeti sabah 8\'de iletilir','Proje/görev tamamlandığında ilgililere bilgi gönderilir']},
-      {h:'Desteklenen CRM Sistemleri', items:['HubSpot','Monday.com','Notion','Airtable','Google Sheets (basit CRM olarak)','Özel / sektöre özel CRM\'ler (API ile)']},
-      {h:'Entegrasyon Avantajları', items:['Mevcut araçlarınızdan vazgeçmeden otomasyon eklenir','Tek panelden tüm süreçleri görüntüleyin','Ekip içi iletişim hatası sıfırlanır','Raporlar otomatik oluşturulur, e-posta ile iletilir']}
+      {h:'Modüller', items:['İşe Alım: Kariyer.net + LinkedIn leadleri otomatik toplama, CV AI skorlama, mülakat planlama','Onboarding: e-posta bildirimleri, checklist yönetimi, şirket bilgi tabanı chatbotu','Performans: OKR & haftalık check-in, 1:1 toplantı yönetimi, 360° feedback döngüsü','Yetenek Yönetimi: 9-box grid otomasyonu, gelişim planı önerisi','Raporlama: İK analitiği ve AI içgörü raporları']},
+      {h:'Teknik Altyapı', items:['React + Tailwind CSS yönetim paneli','n8n tabanlı otomasyon akışları','Claude API: CV analiz, feedback yazma asistanı, risk tespiti','Gmail API ile tüm bildirimler','Google Calendar ile mülakat + eğitim planlaması','Google Sheets (MVP) → PostgreSQL (büyüme)']},
+      {h:'İdeal Kullanım', items:['10-200 çalışan KOBİ\'ler','Sezonluk işe alım yapan Bodrum işletmeleri','İK departmanı kurmak isteyen büyüyen şirketler','Yabancı personel de çalıştıran turizm işletmeleri']}
     ],
-    tags:['HubSpot','Notion','Airtable','Görev Otomasyonu','Raporlama','API Entegrasyonu']
+    tags:['İşe Alım AI','CV Skorlama','Onboarding','Performans','360° Feedback','OKR']
   },
   m6: {
-    ico:'🔔', title:'Müşteri Takip Otomasyonu', tag:'Sadakat Yaratır',
-    lead:'Müşteriniz kapıdan çıktıktan sonra ilişki bitmez — başlar. Zamanında gönderilen doğru mesaj, onu tekrar getirir ve yorum yazdırır.',
+    ico:'🌐', title:'Mobil Uyumlu Web Sitesi', tag:'Hızlı & Profesyonel',
+    lead:'Kuaförden restorana, emlak ofisinden butik otele — markanıza özel, hızlı yüklenen ve mobil dostu modern web siteleri. SEO uyumlu, hazır içerik ile teslim.',
     sections:[
-      {h:'Takip Akışları', items:['Ziyaret bittikten sonra 2 saat içinde teşekkür mesajı','24 saat sonra Google / TripAdvisor yorum daveti','1 hafta sonra özel kampanya veya tekrar ziyaret teklifi','Doğum günü otomatik kutlama ve özel indirim kodu','Uzun süredir gelmeyen müşterilere "sizi özledik" mesajı','Sezon öncesi erken rezervasyon indirimi bildirimi']},
-      {h:'Neden Önemli?', items:['Yeni müşteri kazanmak, eskiyi tutmaktan 5x pahalıdır','Google yorumu = ücretsiz reklam ve daha fazla organik müşteri','Kişiselleştirilmiş mesaj, sıradan tanıtım mesajından 3x daha etkili','Zamanında gönderilen teklif, tekrar ziyareti tetikler']},
-      {h:'Kanal Seçenekleri', items:['WhatsApp (en yüksek açılma oranı: %98)','SMS','E-posta','Telegram']}
+      {h:'Ne Sunuyoruz?', items:['Markanıza özel tasarım — şablon değil, özgün tasarım','Tam mobil uyumluluk (telefon, tablet, masaüstü)','Hızlı yüklenme: PageSpeed optimizasyonu','SEO temeli: title, meta, schema, sitemap kurulum','Güvenli barındırma, SSL sertifikası dahil','Whatsapp iletişim butonu ve randevu formu entegrasyonu']},
+      {h:'Örnekler', items:['Kuaför & güzellik salonları (20+ aktif site)','Restoranlar & kafeler','Emlak ofisleri','Butik oteller & apart','Transfer & tur şirketleri']},
+      {h:'Teslim Süreci', items:['1. İşletmeniz ve markanız için brifing toplantısı','2. Tasarım taslağı onayı','3. Geliştirme ve içerik yerleştirme','4. 7-14 gün içinde canlıya alım','5. Sonrası için bakım & güncelleme desteği']}
     ],
-    tags:['WhatsApp Takip','Google Yorum','Doğum Günü','Sadakat','Tekrar Ziyaret','SMS/Email']
+    tags:['Mobil Uyumlu','SEO Uyumlu','Hızlı Teslim','SSL','WhatsApp Entegrasyonu','Özel Tasarım']
+  },
+  m7: {
+    ico:'✉️', title:'E-mail Marketing Otomasyonu', tag:'Dönüşümü Artırır',
+    lead:'Müşteri listenizi segmentlere ayırın, kişiselleştirilmiş e-mail kampanyaları otomatik gönderin. Yeni müşteri kazanın, mevcutları geri getirin.',
+    sections:[
+      {h:'Kampanya Türleri', items:['Karşılama serisi: yeni kayıt olana otomatik e-mail dizisi','Terk sepeti hatırlatması: yarım bırakılan rezervasyonlara uyarı','Mevsimsel kampanyalar: yaz / kış sezonu özel teklifler','Doğum günü & yıl dönümü kişiselleştirilmiş mesajlar','Re-engagement: uzun süredir gelmeyenleri geri kazanma','Upsell / cross-sell: mevcut müşteriye ek hizmet önerisi']},
+      {h:'Teknik Özellikler', items:['Mailchimp, Brevo (Sendinblue), ActiveCampaign entegrasyonu','A/B test: konu başlığı ve içerik optimizasyonu','Segmentasyon: sektör, lokasyon, davranış bazlı liste bölme','Otomatik liste temizleme: bounce ve spam temizliği','Açılma, tıklama ve dönüşüm raporları','GDPR / KVKK uyumlu opt-in akışı']},
+      {h:'Neden Önemli?', items:['E-mail ROI: her 1 TL harcamaya 36 TL geri dönüş (ortalama)','%98 açılma oranı WhatsApp\'a yakın, ama maliyet çok daha düşük','Segmentli kampanya, toplu bülten e-postasından 6x daha etkili','Müşterinin satın alma döngüsüne göre zamanında mesaj']}
+    ],
+    tags:['Mailchimp','Brevo','Segmentasyon','A/B Test','Otomatik Dizi','KVKK Uyumlu']
+  },
+  m8: {
+    ico:'🎯', title:'Lead & Rezervasyon Otomasyonu', tag:'Dönüşümü Artırır',
+    lead:'Her kanaldan gelen potansiyel müşteriyi anında yakala, otomatik takibe al. Restoran, otel ve tur rezervasyonlarını sıfır hatayla yönet.',
+    sections:[
+      {h:'Lead Kaynakları', items:['Web sitesi iletişim formu','WhatsApp / Instagram mesajları','Google Ads landing page formları','Facebook / Instagram Lead Ads','Referans kodu ile gelen müşteriler','Sosyal medya dm\'leri']},
+      {h:'Rezervasyon Akışı', items:['Müşteri WhatsApp veya web formu üzerinden talep gönderir','Sistem müsaitliği otomatik kontrol eder','Anlık onay mesajı müşteriye iletilir','Rezervasyon takvim ve sisteminize işlenir','Ziyaret 24 saat öncesinde otomatik hatırlatma gönderilir','Ziyaret sonrası teşekkür ve Google yorum daveti otomatik gönderilir']},
+      {h:'Avantajlar', items:['İlk 5 dakika yanıt = 3x daha yüksek dönüşüm','%40\'a kadar daha az no-show','Hiçbir lead takipsiz kalmaz, elle kontrol gerekmez','Tüm iletişim geçmişi tek panelde görülür']}
+    ],
+    tags:['CRM Entegrasyonu','5 Dak İlk Yanıt','Otomatik Onay','Hatırlatma','No-Show Azaltma','Raporlama']
   }
 };
 
@@ -1197,21 +1242,22 @@ const T = {
     'h-sub':'Bodrum\'daki restoranlar, oteller, gayrimenkul firmaları ve turizm işletmeleri için yapay zeka destekli otomasyon. Manuel iş yükünü sıfıra indirin.',
     'h-btn1':'Ücretsiz Demo Al →','h-btn2':'Nasıl Çalışır?',
     'h-s1':'Daha az manuel iş','h-s2':'Otomatik yanıt','h-s3':'Daha fazla rezervasyon',
-    'fp1':'Otomasyon aktif','fp2':'+47 rezervasyon bugün',
-    'wf-nm':'WhatsApp Rezervasyon Botu','wf-st':'Çalışıyor',
-    'ws1':'Müşteri mesajı alındı','ws1b':'Tamamlandı','ws2':'AI analiz etti','ws2b':'Tamamlandı',
-    'ws3':'Rezervasyon oluşturuluyor','ws3b':'Canlı','ws4':'Onay mesajı gönderilecek','ws4b':'Bekliyor',
-    'wst1':'Bugün','wst2':'Yanıt oranı','wst3':'Ort. yanıt',
-    'trust-lbl':'Bodrum\'daki işletmelere özel çözümler',
-    'tp1':'Restoranlar','tp2':'Oteller & Butikler','tp3':'Gayrimenkul','tp4':'Turizm & Tekne','tp5':'Transfer Servisleri',
+    'fp1':'Otomasyon aktif','fp2':'Tüm sistemler çalışıyor',
+    'wf-nm':'Smart Bodrum — Aktif Hizmetler','wf-st':'Sistemler Çalışıyor',
+    'wst1':'Müşteri Artışı','wst2':'Kesintisiz','wst3':'Daha Fazla Lead',
+    'trust-lbl':'İşletmelere özel çözümler',
+    'trust-sub':'Küçük ve Orta Boy İşletmeler',
+    'tp1':'Restoranlar','tp2':'Oteller & Butik Oteller','tp3':'Gayrimenkul','tp4':'Turizm & Tekne',
     'srv-chip':'Hizmetler','srv-title':'İşletmenizi Büyüten <span class="gt">Otomasyon Araçları</span>',
     'srv-sub':'Tekrarlayan görevleri otomasyona devredin. Siz müşterilerinize odaklanın.',
-    's1n':'Yapay Zeka Otomasyon Sistemi','s1d':'İşletmenizin tüm dijital süreçlerini analiz ederek size özel bir yapay zeka motoru kuruyoruz. Müşteri iletişiminden iç operasyonlara kadar her şey otomatik, kesintisiz çalışır.','s1t':'En Çok Tercih Edilen',
-    's2d':'Gelen mesajlara anında akıllı yanıtlar. Rezervasyon alma, bilgi verme, yönlendirme — hepsi otomatik.',
-    's3n':'Rezervasyon Otomasyonu','s3d':'Restoran masası veya otel odası. Rezervasyon akışını tamamen otomatikleştirin.',
-    's4n':'Lead Toplama Otomasyonu','s4d':'Potansiyel müşteri sinyallerini anlık yakalayın, otomatik takibe alın, satışa dönüştürün.',
-    's5n':'CRM & İş Akışı Otomasyonu','s5d':'Mevcut CRM\'inizi veya yeni iş akışlarını otomatikleştirin. Hiçbir müşteri takipsiz kalmasın.',
-    's6n':'Müşteri Takip Otomasyonu','s6d':'Ziyaret sonrası teşekkürler, sadakat kampanyaları, hatırlatıcılar — zamanında ve kişiselleştirilmiş.',
+    's1n':'Yapay Zeka Otomasyon Sistemi','s1d':'İşletmenizin tüm dijital süreçlerini analiz ederek size özel bir yapay zeka motoru kuruyoruz. n8n tabanlı akıllı sistemler 7/24 kesintisiz çalışır.','s1t':'En Çok Tercih Edilen',
+    's2d':'Gelen mesajlara anında akıllı yanıtlar. Rezervasyon alma, bilgi verme, yönlendirme — restoranlar, oteller ve turizm işletmeleri için hepsi otomatik.',
+    's3n':'Emlak CRM & AI Otomasyon','s3d':'Portal leadlerini otomatik topla, AI ile skorla ve randevuya çevir. Satış pipeline\'ını uçtan uca otomatik yönet.','s3t':'Yeni',
+    's4n':'Finansal Analiz Otomasyonu','s4d':'Mizan verinizi yükle, AI CFO\'n analiz etsin. Bütçe vs gerçekleşen, nakit projeksiyonu ve otomatik yönetim raporları.','s4t':'Yeni',
+    's5n':'HR Otomasyonu','s5d':'İşe alımdan performans değerlendirmesine kadar tüm İK süreçleri otomatik. CV AI skorlaması, onboarding ve 360° feedback.','s5t':'Yeni',
+    's6n':'Mobil Uyumlu Web Sitesi','s6d':'Kuaförden restorana, emlak ofisinden butik otele — markanıza özel, hızlı ve mobil dostu modern web siteleri.',
+    's7n':'E-mail Marketing Otomasyonu','s7d':'Müşteri listenizi segmentlere ayırın, kişiselleştirilmiş kampanyalar otomatik gönderin.',
+    's8n':'Lead & Rezervasyon Otomasyonu','s8d':'Her kanaldan gelen potansiyel müşteriyi anında yakala, otomatik takibe al. Rezervasyonları sıfır hatayla yönet.',
     'how-chip':'Süreç','how-title':'4 Adımda <span class="gt">Canlıya Alın</span>','how-sub':'Teknik bilgi gerekmez. Sizin için kuruyoruz, sizin için ayarlıyoruz.',
     'st1t':'İşletmenizi Analiz Ediyoruz','st1d':'İş akışlarınızı, müşteri süreçlerinizi ve tekrarlayan görevlerinizi birlikte inceliyoruz.',
     'st2t':'Size Özel Tasarlıyoruz','st2d':'Sektörünüze ve işletme yapınıza özel bir otomasyon mimarisi tasarlıyoruz.',
@@ -1224,7 +1270,8 @@ const T = {
     'ex4t':'Ziyaret Sonrası Takip','ex4d':'Müşteri ayrıldıktan sonra teşekkür mesajı ve Google yorum linki otomatik gönderilir.','ex4r':'Daha fazla 5 yıldız yorum',
     'ex5t':'Gayrimenkul Lead Akışı','ex5d':'Portaldaki ilanı inceleyen kişi sisteme düşer, otomatik bilgilendirme ve randevu teklifi iletilir.','ex5r':'Günlük 3 saat tasarruf',
     'ex6t':'İç Görev Otomasyonu','ex6d':'Rezervasyon girildiğinde mutfağa bildirim, temizlik ekibine görev, yöneticiye özet rapor — otomatik tetiklenir.','ex6r':'Sıfır iletişim hatası',
-    'ind-chip':'Sektörler','ind-title':'Hangi Sektöre <span class="gt">Çözüm Üretiyoruz?</span>','ind-sub':'Bodrum\'un önde gelen sektörlerine özel otomasyon çözümleri geliştiriyoruz.',
+    'ind-chip':'Sektörler','ind-title':'Hangi Sektöre <span class="gt">Çözüm Üretiyoruz?</span>','ind-sub':'Sektörden bağımsız her ölçekteki işletme için otomasyon çözümleri geliştiriyoruz.',
+    'in0n':'Küçük ve Orta Boy İşletmeler','in0d':'Sektörden bağımsız, 1 kişilik yerel işletmeden 500 çalışanlı şirkete kadar her ölçek için yapay zeka destekli otomasyon. Tekrarlayan iş yükünü sıfıra indirin, büyümeye odaklanın.',
     'in1n':'Restoranlar','in1d':'Masa rezervasyonu, menü sorgulama, özel gün hatırlatıcısı ve müşteri sadakat sistemi tamamen otomatik.','in1t1':'Masa Rezervasyon','in1t2':'Menü Botu','in1t3':'Sadakat',
     'in2n':'Oteller & Butik Oteller','in2d':'Online rezervasyon entegrasyonu, check-in hatırlatmaları, oda hizmetleri talebi ve konuk takip sistemi.','in2t1':'Online Rezervasyon','in2t2':'Check-in Bot','in2t3':'Konuk CRM',
     'in3n':'Gayrimenkul','in3d':'Portal leadlerinin otomatik toplanması, müşteri takibi, görüntüleme randevusu ve satış süreci otomasyonu.','in3t1':'Lead Akışı','in3t2':'Randevu Botu','in3t3':'Satış CRM',
@@ -1247,13 +1294,13 @@ const T = {
     'ctt-chip':'İletişim','ctt-title':'Otomasyona <span class="gt">Başlayalım</span>','ctt-sub':'İşletmenizi analiz edelim, size özel ücretsiz bir otomasyon planı hazırlayalım.',
     'ctt-loc':'Konum','form-ttl':'Ücretsiz Demo Talebi',
     'fl-nm':'Ad Soyad','fl-bz':'İşletme Adı','fl-sc':'Sektör','fl-mg':'Mesajınız (isteğe bağlı)',
-    'fo-0':'Seçiniz','fo-1':'Restoran','fo-2':'Otel / Butik Otel','fo-3':'Gayrimenkul','fo-4':'Turizm / Tekne Kiralama','fo-5':'Diğer',
+    'fo-0':'Seçiniz','fo-1':'Restoran','fo-2':'Otel / Butik Otel','fo-3':'Gayrimenkul / Emlak','fo-4':'Turizm / Tekne Kiralama','fo-6':'Finans & Muhasebe','fo-7':'İnsan Kaynakları','fo-8':'Kuaför & Güzellik','fo-5':'Diğer',
     'form-btn-t':'Demo Talep Et →',
     'cta-t':'İşletmenizi Otomatikleştirmeye Hazır Mısınız?','cta-s':'Bodrum\'daki en inovatif işletmeler Smart Bodrum ile çalışıyor. Sıra sizde.',
     'cta-b1':'Ücretsiz Demo Al →','cta-b2':'📱 WhatsApp\'tan Yaz',
     'ft-desc':'Bodrum merkezli yapay zeka ve otomasyon şirketi. Yerel işletmeleri geleceğe taşıyoruz.',
     'ft-h1':'Hizmetler','ft-h2':'Sektörler','ft-h3':'Şirket',
-    'ft-s1':'AI Otomasyon','ft-s3':'Rezervasyon Botu','ft-s4':'Lead Otomasyonu',
+    'ft-s1':'AI Otomasyon Sistemi','ft-s3':'Emlak CRM & AI','ft-s4':'Finans & FP&A',
     'ft-i1':'Restoranlar','ft-i2':'Oteller','ft-i3':'Gayrimenkul','ft-i4':'Turizm',
     'ft-c1':'Hakkımızda','ft-c2':'Nasıl Çalışır','ft-c3':'İletişim','ft-c4':'Gizlilik Politikası',
     'ft-country':'Türkiye','ft-priv':'Gizlilik','ft-terms':'Kullanım Koşulları'
@@ -1267,21 +1314,22 @@ const T = {
     'h-sub':'AI-powered automation for restaurants, hotels, real estate agencies and tourism businesses in Bodrum. Bring manual workload to zero.',
     'h-btn1':'Get Free Demo →','h-btn2':'How It Works?',
     'h-s1':'Less manual work','h-s2':'Auto response','h-s3':'More bookings',
-    'fp1':'Automation active','fp2':'+47 bookings today',
-    'wf-nm':'WhatsApp Reservation Bot','wf-st':'Running',
-    'ws1':'Customer message received','ws1b':'Done','ws2':'AI analyzed','ws2b':'Done',
-    'ws3':'Creating reservation','ws3b':'Live','ws4':'Confirmation to be sent','ws4b':'Waiting',
-    'wst1':'Today','wst2':'Response rate','wst3':'Avg. response',
-    'trust-lbl':'Tailored solutions for Bodrum businesses',
-    'tp1':'Restaurants','tp2':'Hotels & Boutiques','tp3':'Real Estate','tp4':'Tourism & Yachts','tp5':'Transfer Services',
+    'fp1':'Automation active','fp2':'All systems running',
+    'wf-nm':'Smart Bodrum — Active Services','wf-st':'Systems Running',
+    'wst1':'Customer Growth','wst2':'Non-Stop','wst3':'More Leads',
+    'trust-lbl':'Tailored solutions for every business',
+    'trust-sub':'Small & Medium-Sized Businesses',
+    'tp1':'Restaurants','tp2':'Hotels & Boutique Hotels','tp3':'Real Estate','tp4':'Tourism & Yachts',
     'srv-chip':'Services','srv-title':'Automation Tools That <span class="gt">Grow Your Business</span>',
     'srv-sub':'Hand over repetitive tasks to automation. Focus on your customers and growth.',
-    's1n':'AI Automation System','s1d':'We analyze all your digital processes and build a custom AI engine for you. From customer communication to internal operations — everything automated, non-stop.','s1t':'Most Popular',
-    's2d':'Instant, intelligent replies to incoming messages. Booking intake, info delivery, routing — all automatic.',
-    's3n':'Reservation Automation','s3d':'Whether it\'s a restaurant table or hotel room — fully automate your booking flow.',
-    's4n':'Lead Generation Automation','s4d':'Capture potential customer signals instantly, put them into automated follow-up, convert to sales.',
-    's5n':'CRM & Workflow Automation','s5d':'Automate your existing CRM or freshly built workflows. Never leave a customer without a follow-up.',
-    's6n':'Customer Follow-up Automation','s6d':'Post-visit thank-you messages, loyalty campaigns, reminders — timely and personalized.',
+    's1n':'AI Automation System','s1d':'We analyze all your digital processes and build a custom AI engine for you. n8n-powered smart systems run 24/7 non-stop.','s1t':'Most Popular',
+    's2d':'Instant, intelligent replies to incoming messages. Booking intake, info delivery, routing — for restaurants, hotels and tourism businesses, all automatic.',
+    's3n':'Real Estate CRM & AI','s3d':'Automatically collect portal leads, score them with AI and convert to appointments. Fully automated sales pipeline.','s3t':'New',
+    's4n':'Financial Analysis Automation','s4d':'Upload your balance sheet, let your AI CFO analyze it. Budget vs actual variance, cash projection and automated management reports.','s4t':'New',
+    's5n':'HR Automation','s5d':'Automate all HR processes from recruitment to performance reviews. CV AI scoring, onboarding and 360° feedback — one platform.','s5t':'New',
+    's6n':'Mobile-Friendly Website','s6d':'From hair salons to restaurants, real estate offices to boutique hotels — custom, fast and mobile-friendly modern websites.',
+    's7n':'E-mail Marketing Automation','s7d':'Segment your customer list, send personalized email campaigns automatically. Optimize open rates with AI.',
+    's8n':'Lead & Reservation Automation','s8d':'Capture every potential customer from every channel instantly, put them into automated follow-up. Manage reservations with zero errors.',
     'how-chip':'Process','how-title':'Go Live in <span class="gt">4 Steps</span>','how-sub':'No technical knowledge required. We set it up and configure it for you.',
     'st1t':'We Analyze Your Business','st1d':'We examine your workflows, customer processes and repetitive tasks together.',
     'st2t':'We Design Custom For You','st2d':'We design an automation architecture tailored to your industry and business structure.',
@@ -1294,7 +1342,8 @@ const T = {
     'ex4t':'Post-Visit Follow-up','ex4d':'After the customer leaves, a thank-you message and Google review link are automatically sent.','ex4r':'More 5-star reviews',
     'ex5t':'Real Estate Lead Flow','ex5d':'Person viewing the listing enters the system, automatic info and appointment offer sent. Agent only shows up for the meeting.','ex5r':'3 hours saved daily',
     'ex6t':'Internal Task Automation','ex6d':'When booking is entered, notification to kitchen, task to housekeeping, summary to manager — all triggered automatically.','ex6r':'Zero communication errors',
-    'ind-chip':'Industries','ind-title':'Which Industries <span class="gt">Do We Serve?</span>','ind-sub':'We develop automation solutions tailored to Bodrum\'s leading industries.',
+    'ind-chip':'Industries','ind-title':'Which Industries <span class="gt">Do We Serve?</span>','ind-sub':'Automation solutions for businesses of every scale and sector.',
+    'in0n':'Small & Medium-Sized Businesses','in0d':'AI-powered automation for every scale — from a 1-person local business to a 500-employee company. Bring repetitive workload to zero and focus on growth.',
     'in1n':'Restaurants','in1d':'Table booking, menu inquiries, special day reminders and customer loyalty system — fully automatic.','in1t1':'Table Booking','in1t2':'Menu Bot','in1t3':'Loyalty',
     'in2n':'Hotels & Boutique Hotels','in2d':'Online booking integration, check-in reminders, room service requests and guest follow-up system.','in2t1':'Online Booking','in2t2':'Check-in Bot','in2t3':'Guest CRM',
     'in3n':'Real Estate','in3d':'Automatic portal lead collection, customer follow-up, viewing appointments and sales process automation.','in3t1':'Lead Flow','in3t2':'Appointment Bot','in3t3':'Sales CRM',
@@ -1317,13 +1366,13 @@ const T = {
     'ctt-chip':'Contact','ctt-title':'Let\'s <span class="gt">Start Automating</span>','ctt-sub':'Let us analyze your business and prepare a free custom automation plan for you.',
     'ctt-loc':'Location','form-ttl':'Request Free Demo',
     'fl-nm':'Full Name','fl-bz':'Business Name','fl-sc':'Industry','fl-mg':'Message (optional)',
-    'fo-0':'Select','fo-1':'Restaurant','fo-2':'Hotel / Boutique Hotel','fo-3':'Real Estate','fo-4':'Tourism / Yacht Charter','fo-5':'Other',
+    'fo-0':'Select','fo-1':'Restaurant','fo-2':'Hotel / Boutique Hotel','fo-3':'Real Estate / Property','fo-4':'Tourism / Yacht Charter','fo-6':'Finance & Accounting','fo-7':'Human Resources','fo-8':'Hair Salon & Beauty','fo-5':'Other',
     'form-btn-t':'Request Demo →',
     'cta-t':'Ready to Automate Your Business?','cta-s':'Bodrum\'s most innovative businesses work with Smart Bodrum. Now it\'s your turn.',
     'cta-b1':'Get Free Demo →','cta-b2':'📱 Message on WhatsApp',
     'ft-desc':'Bodrum-based AI and automation company. Taking local businesses into the future.',
     'ft-h1':'Services','ft-h2':'Industries','ft-h3':'Company',
-    'ft-s1':'AI Automation','ft-s3':'Reservation Bot','ft-s4':'Lead Automation',
+    'ft-s1':'AI Automation System','ft-s3':'Real Estate CRM & AI','ft-s4':'Finance & FP&A',
     'ft-i1':'Restaurants','ft-i2':'Hotels','ft-i3':'Real Estate','ft-i4':'Tourism',
     'ft-c1':'About Us','ft-c2':'How It Works','ft-c3':'Contact','ft-c4':'Privacy Policy',
     'ft-country':'Turkey','ft-priv':'Privacy','ft-terms':'Terms of Service'
